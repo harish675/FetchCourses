@@ -1,0 +1,67 @@
+body{
+     margin: 0;
+     padding: 0;
+}
+
+#main-container{
+      height: 200px;
+      width: 100%;
+      background-color: rgba(219, 241, 234, 0.737);
+      margin-top: 12%;
+      text-align: center;
+      font-family: sans-serif;
+}
+#main-container h1{
+      font-size: 50px;
+      padding-top: 20px;
+      font-weight: 500;
+      color: rgb(35, 32, 32);
+}
+#main-container button {
+      height: 45px;
+      width: 170px;
+}
+
+#card-section{
+     width: 94%;
+     height: auto;
+     margin: 3%;
+     margin-top: 1%;
+     padding: 2%;
+     /* background-color: red; */
+     overflow: hidden;
+    
+}
+
+.card-info{ 
+     width: 300px;
+     height: 280px;
+     /* border: 1px solid gray; */
+     margin-bottom: 20px;
+     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); 
+     /* Define the transition for the scale effect */
+     transition: transform 0.3s ease; 
+}
+
+.card-info p:first-of-type{
+     
+     font-size: 20px;
+     font-weight: 700;
+     text-align:left;
+     margin-left: 10px;
+}
+
+.card-info p:nth-of-type(2){
+     
+      font-size: 15px;
+      text-align: right;
+      margin-right: 10px;
+}
+
+.card-info:hover{
+    /* Increase the scale to 110% on hover */
+    transform: scale(1.1);
+}
+
+
+
